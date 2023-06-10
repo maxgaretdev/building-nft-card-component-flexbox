@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    block-size: 100vh;
+    margin: 0;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    inline-size: 22rem;
+    block-size: 37rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow: 0px 7px 5px 3px rgba(0, 0, 0, 0.35);
+  }
+  
+  .card img {
+    max-inline-size: 100%;
+    block-size: auto;
+    padding: 1.5rem;
+    border-radius: 9%;
+    z-index: 1;
+  }
+
+   
+
+  .card img:hover {
+    cursor: pointer;
+    filter: brightness(120%) sepia(100%) hue-rotate(-220deg) saturate(800%) contrast(0.8);
+    
+  }
+  
+  .card img:hover + ::after {
+    opacity: 1;
+  }
+
+  .card .container {
+    padding: 0 1.5rem;
+
+  }
+  
+  .card h1 {
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .card h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+  
+ 
+  
+  .card p {
+    font-size: 0.8rem;
+    color: hsl(215, 51%, 70%);
+  }
+  
+  
+  .card .eth-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    block-size: 3rem;
+  }
+  
+  .eth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card .eth-date img {
+    inline-size: 1rem;
+    block-size: 1rem;
+    margin-inline-end: 0.5rem;
+    padding: 0;
+    
+  }
+  
+  .card .eth-date p {
+    font-size: 0.8rem;
+    
+  }
+  .card .eth p {
+    color: hsl(178, 100%, 50%);
+  }
+  
+  .card .creation {
+    display: flex;
+    align-items: center;
+    margin-block-start: 1rem;
+  }
+  
+  .card .creation img {
+    inline-size: 2rem;
+    block-size: 2rem;
+    margin-inline-end: 0.5rem;
+  }
+
+  hr {
+    opacity: 20%;
+
+  }
+  
+  .card .creation p {
+    padding: 0 1rem;
+    font-size: 0.9rem;
+  }
+
+  .creation img {
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: 0;
+  }
+
+  span {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5rem;
+    font-family: 'Outfit', sans-serif;
+  }
+  span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+  
+
+
+  
